@@ -1,0 +1,104 @@
+export { default as theme } from "./theme";
+
+<img src={require("file-loader!./src/assets/logo.png")} />
+
+---
+
+# O que é
+
+Git é um sistema de controle de versão de arquivos.
+
+---
+
+## Instalando git
+
+Plataformas disponíveis:
+
+- Windows
+- Linux
+- Mac
+
+```
+https://git-scm.com/downloads
+```
+
+---
+
+## Configurando Ambiente
+
+Global:
+
+```
+git config --global user.name "Larissa"
+git config --global user.email "contato@prov.com"
+```
+
+Para visualizar suas configurações:
+
+```
+git config user.name
+Larissa
+```
+
+Para visualizar TODAS as informações:
+
+```
+git config --list
+```
+
+Editor do git (opcional):
+
+```
+git config --global core.editor code
+```
+
+---
+
+### SSH keys
+
+- RSA, DSA, ECDSA e ED25519;
+
+```
+ssh-keygen -t rsa -b 4096 -C "email@hue.br"
+```
+
+-t [type]
+
+-b [bits]
+
+-C [comentário]
+
+---
+
+#### Copiando sua key:
+
+-Mac OS:
+
+```
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
+-WSL / GNU / Linux (requer o pacote xclip):
+
+```
+xclip -sel clip < ~/.ssh/id_ed25519.pub
+```
+
+-Git Bash no Windows:
+
+```
+cat ~/.ssh/id_ed25519.pub | clip
+```
+
+---
+
+<img src={require("file-loader!./src/assets/ssh.png")} />
+
+---
+
+## Testando:
+
+```
+ssh -T git@gitlab.com
+Bem-vindo ao GitLab @username!
+```

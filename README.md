@@ -37,6 +37,6 @@ Git é um sistema de controle de versão distribuído com ênfase em velocidade 
 
 ## Executar localmente
 
-Faça o download do repositório: git clone git@github.com:RikoKami/git-guide.git
+Faça o download do repositório: `git clone git@github.com:RikoKami/git-guide.git`
 
 Executar `npm start`

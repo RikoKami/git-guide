@@ -1,16 +1,8 @@
-import React, { lazy, Suspense } from "react";
-import { importMDX } from "mdx.macro";
+import React from "react";
 import "./App.scss";
 
 function App() {
-  const Content = lazy(() => importMDX("./Content.mdx"));
-  return (
-    <div>
-      <Suspense fallback={<div>Loading...</div>}>
-        <Content />
-      </Suspense>
-    </div>
-  );
+  return <div>{/* <p>Git Guide - mdx</p> */}</div>;
 }
 
 export default App;

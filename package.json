@@ -3,15 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "mdx-deck": "^3.0.13",
+    "@emotion/core": "^10.0.17",
+    "@mdx-js/react": "^1.5.0",
+    "file-loader": "^4.2.0",
     "mdx.macro": "^0.2.9",
     "node-sass": "^4.12.0",
+    "prettier": "^1.18.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2"
+    "react-scripts": "3.1.2",
+    "theme-ui": "^0.2.43"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "mdx-deck deck.mdx",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -30,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "mdx-deck": "^1.8.0"
   }
 }
