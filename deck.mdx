@@ -102,3 +102,35 @@ cat ~/.ssh/id_ed25519.pub | clip
 ssh -T git@gitlab.com
 Bem-vindo ao GitLab @username!
 ```
+
+---
+
+## Inicializando um repositório
+
+```
+mkdir git-guide
+cd git-guide/
+git init
+
+Initialized empty Git repository in ../../../git-guide/.git
+
+cd .git/
+ls
+HEAD   branches    config     description   hooks    info  objects  refs
+```
+
+HEAD -> Branch padrão atual
+
+branches -> Branches existentes no projeto
+
+config -> configuração do repositorio
+
+description -> Descrição do projeto
+
+hooks -> Gatilhos para fazer certas ações
+
+---
+
+## Ciclo de vida dos status de seus arquivos
+
+<img src={require("file-loader!./src/assets/lifecycle.png")} />
