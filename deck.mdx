@@ -134,3 +134,38 @@ hooks -> Gatilhos para fazer certas ações
 ## Ciclo de vida dos status de seus arquivos
 
 <img src={require("file-loader!./src/assets/lifecycle.png")} />
+
+---
+
+## Visualizando logs
+
+```
+git log
+commit f0dada5e0c4f6c50bf2a4a57f6b39677827e5f06 (HEAD -> master, origin/master, origin/HEAD)
+Author: Larissa <contato@contato.com>
+Date:   Mon Sep 30 00:42:02 2019 -0300
+
+    Insert lifecycle
+
+git log --author="Larissa"
+commit f0dada5e0c4f6c50bf2a4a57f6b39677827e5f06 (HEAD -> master, origin/master, origin/HEAD)
+Author: Larissa <contato@contato.com>
+Date:   Mon Sep 30 00:42:02 2019 -0300
+
+    Insert lifecycle
+
+
+git shortlog
+Larissa (5):
+      git guide structuring
+      feat: Organizing structure
+      feat: structuring
+      feat: inserting ssh structure
+      Insert lifecycle
+
+git log --graph
+
+git show f0dada5e0c4f6c50bf2a4a57f6b39677827e5f06
+```
+
+---
