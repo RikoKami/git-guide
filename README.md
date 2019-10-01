@@ -39,4 +39,6 @@ Git é um sistema de controle de versão distribuído com ênfase em velocidade 
 
 Faça o download do repositório: `git clone git@github.com:RikoKami/git-guide.git`
 
+Instalar dependências `npm install`
+
 Executar `npm start`
