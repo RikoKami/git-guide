@@ -183,4 +183,34 @@ git diff --name-only
 
 ---
 
-##
+## Desfazendo coisas
+
+Antes do Stage:
+
+```
+git checkout nomedoarquivo
+```
+
+Depois do Stage:
+
+```
+git reset HEAD nomedoarquivo
+```
+
+Depois do commit:
+
+```
+git reset --soft --mixed --hard
+```
+
+soft: Modificações irão voltar para staged e pronto para commitar novamente
+
+mixed: Modificações irão voltar para o modified
+
+hard: Ignora a existencia do commit. Destroí todo o commit.
+
+---
+
+```
+git reset --soft f0dada5e0c4f6c50bf2a4a57f6b39677827e5f06
+```
