@@ -22,5 +22,8 @@ export default {
     h1: {
       fontSize: 32,
     },
+    p: {
+      text: "center"
+    }
   },
 };
