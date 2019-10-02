@@ -133,6 +133,32 @@ hooks -> Gatilhos para fazer certas ações
 
 ---
 
+## Criando repositório
+
+```
+git add .
+git commit -m "First Blood!"
+git remote add origin git@github.com:RikoKami/nome-do-projeto.git
+git push -u origin master
+```
+
+## Repositório já existente
+
+```
+git remote add origin git@github.com:RikoKami/nome-do-projeto.git
+git push -u origin master
+```
+
+---
+
+## Clonando repositórios remotos
+
+```
+git clone git@github.com:RikoKami/nome-do-projeto.git novo-nome-da-pasta
+```
+
+---
+
 ## Ciclo de vida dos status de seus arquivos
 
 <img src={require("file-loader!./src/assets/lifecycle.png")} />
@@ -218,3 +244,7 @@ git reset --mixed f0dada5e0c4f6c50bf2a4a57f6b39677827e5f06
 
 git reset --hard f0dada5e0c4f6c50bf2a4a57f6b39677827e5f06
 ```
+
+---
+
+## Repositório Remoto
