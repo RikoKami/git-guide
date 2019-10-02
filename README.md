@@ -30,7 +30,6 @@ Git é um sistema de controle de versão distribuído com ênfase em velocidade 
     - Ramificações
     - Atualizar
     - Merge
-  - Sobreescrevendo alterações locais
   - Dicas
 
 - Fluxo de trabalho

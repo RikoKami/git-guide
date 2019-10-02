@@ -247,4 +247,102 @@ git reset --hard f0dada5e0c4f6c50bf2a4a57f6b39677827e5f06
 
 ---
 
-## Repositório Remoto
+## Branches
+
+Ponteiro móvel que leva a um commit.
+
+<img src={require("file-loader!./src/assets/branches1.png")} />
+
+---
+
+Branches em diferentes commits
+
+<img src={require("file-loader!./src/assets/branches2.png")} />
+
+---
+
+Criando um branches
+
+```
+git checkout -b testing
+```
+
+Listando branches
+
+```
+git branch
+
+  master
+* testing
+```
+
+Trocando de branch
+
+```
+git checkout master
+```
+
+Apagando branch
+
+```
+git branch -D testing
+```
+
+---
+
+## Merge
+
+```
+git checkout master
+git pull origin master
+git checkout -b feat/list
+git merge master
+```
+
+---
+
+## Dicas
+
+Interface Gráfica:
+
+```
+gitk
+```
+
+Usar saídas do git coloridas
+
+```
+git config color.ui true
+```
+
+exibir log em apenas uma linha por commit
+
+```
+git config format.pretty oneline
+```
+
+---
+
+## Fluxo de Trabalho
+
+```
+npm run dev
+npm run check-prettier
+npm run fix-prettier
+
+git status
+git add .
+git commit -m "feat: ..."
+git push origin feat/list
+git checkout developer
+git pull origin developer
+git checkout feat/list
+git merge developer
+git status
+
+npm run check-prettier
+npm run fix-prettier
+
+git commit -am "feat: resolve merge"
+git push origin feat/list
+```
