@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Git Guia
 
 Git é um sistema de controle de versão distribuído com ênfase em velocidade e versionamento.
@@ -38,6 +36,6 @@ Git é um sistema de controle de versão distribuído com ênfase em velocidade 
 
 Faça o download do repositório: `git clone git@github.com:RikoKami/git-guide.git`
 
-Instalar dependências `npm install`
+Instalar dependências `yarn install`
 
-Executar `npm start`
+Executar `yarn start`
