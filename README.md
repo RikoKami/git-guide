@@ -1,5 +1,7 @@
 # Git Guia
 
+[logo]: 'https://github.com/RikoKami/git-guide/tree/master/src/assets/readme.png'
+
 Git é um sistema de controle de versão distribuído com ênfase em velocidade e versionamento.
 
 ## Tópicos
