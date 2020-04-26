@@ -1,12 +1,14 @@
 # Git Guia
 
-[logo]: 'https://github.com/RikoKami/git-guide/tree/master/src/assets/readme.png'
+![Git Guide][ref]
 
-Git é um sistema de controle de versão distribuído com ênfase em velocidade e versionamento.
+[ref]: ./src/assets/readme.png "Git Guide"
 
 ## Tópicos
 
 - O que é
+
+  Git é um sistema de controle de versão distribuído com ênfase em velocidade e versionamento.
 
 - Instalando git
 
