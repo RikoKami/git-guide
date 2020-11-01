@@ -32,6 +32,7 @@
     - Ramificações
     - Atualizar
     - Merge
+  - Alias
   - Dicas
 
 - Fluxo de trabalho
