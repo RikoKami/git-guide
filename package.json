@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "mdx-deck": "^1.8.0"
+    "mdx-deck": "^1.10.2"
   }
 }
